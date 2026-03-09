@@ -105,7 +105,7 @@ transition: color 0.3s ease;
 
 
 .nav-links a:hover{
-color:#d91a1a;
+color:#ec0000;
 }
 
 .nav-icon-link {
@@ -118,15 +118,15 @@ color:#d91a1a;
   color: #333;
 }
 .navbar.scrolled .nav-icon-link:hover {
-  color: #d91a1a;
+  color: #ec0000;
 }
 
 .btn-register {
-  background-color: #d91a1a;
+  background-color: #ec0000;
   color: #fff;
   border: none;
   padding: 10px 20px;
-  border-radius: 4px;
+  border-radius: 50px;
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
@@ -138,26 +138,28 @@ color:#d91a1a;
 }
 
 .btn-register:hover {
-  background-color: #b91212;
+  background-color: #cc0000;
   transform: translateY(-2px);
 }
 
 .hamburger-menu {
   display: none; /* Oculto por defecto */
-  background: none;
+  background-color: #ec0000;
   border: none;
   cursor: pointer;
-  padding: 5px;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .hamburger-menu svg {
   color: #fff;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 }
 
 .navbar.scrolled .hamburger-menu svg {
-  color: #333;
+  color: #fff;
 }
 
 /* HERO SECTION */
@@ -217,7 +219,7 @@ color:#d91a1a;
     to right, 
     rgba(0, 0, 0, 0.8) 0%, 
     rgba(0, 0, 0, 0.6) 40%, 
-    rgba(217, 26, 26, 0.2) 100%
+    rgba(236, 0, 0, 0.2) 100%
   );
   z-index: 2;
 }
@@ -278,8 +280,8 @@ color:#d91a1a;
   width: auto;
   padding: 15px 35px;
   border: none;
-  border-radius: 4px;
-  background: #d91a1a;
+  border-radius: 50px;
+  background: #ec0000;
   color: white;
   font-size: 17px;
   font-weight: 700;
@@ -291,11 +293,11 @@ color:#d91a1a;
   animation: slideUp 0.8s ease-out 0.4s forwards;
   opacity: 0;
   transform: translateY(30px);
-  box-shadow: 0 4px 15px rgba(217, 26, 26, 0.4);
+  box-shadow: 0 4px 15px rgba(236, 0, 0, 0.4);
 }
 
 .hero-button:hover {
-  background: #b91212;
+  background: #cc0000;
   color: #fff;
   transform: translateY(-2px);
 }
@@ -329,7 +331,7 @@ color:#d91a1a;
 }
 
 .indicator-dot.active {
-  background-color: #d91a1a;
+  background-color: #ec0000;
   transform: scale(1.3);
 }
 
@@ -392,7 +394,7 @@ color:#d91a1a;
   max-width: 1100px;
   width: 100%;
   background: #fff;
-  border-radius: 12px;
+  border-radius: 24px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08); /* Sombreado elegante */
   overflow: hidden;
 }
@@ -417,7 +419,7 @@ color:#d91a1a;
 }
 
 .about-subtitle {
-  color: #d91a1a;
+  color: #ec0000;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1.5px;
@@ -457,7 +459,7 @@ color:#d91a1a;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #d91a1a;
+  color: #ec0000;
 }
 
 .highlight-icon svg {
@@ -480,11 +482,11 @@ color:#d91a1a;
 .about-button {
   margin-top: 40px;
   align-self: flex-start;
-  background-color: #d91a1a;
+  background-color: #ec0000;
   color: #fff;
   border: none;
   padding: 12px 25px;
-  border-radius: 6px;
+  border-radius: 50px;
   font-weight: 700;
   font-size: 15px;
   cursor: pointer;
@@ -496,9 +498,9 @@ color:#d91a1a;
 }
 
 .about-button:hover {
-  background-color: #b91212;
+  background-color: #cc0000;
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(217, 26, 26, 0.2);
+  box-shadow: 0 5px 15px rgba(236, 0, 0, 0.2);
 }
 
 .about-button svg {
@@ -522,7 +524,7 @@ color:#d91a1a;
 }
 
 .skills-subtitle {
-  color: #d91a1a;
+  color: #ec0000;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1.5px;
@@ -552,7 +554,7 @@ color:#d91a1a;
   padding: 40px 30px;
   flex: 1 1 280px;
   max-width: 320px;
-  border-radius: 12px;
+  border-radius: 24px;
   border: 1px solid #e9e9e9;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
@@ -560,8 +562,8 @@ color:#d91a1a;
 
 .skill-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(217, 26, 26, 0.1);
-  border-color: #d91a1a;
+  box-shadow: 0 15px 40px rgba(236, 0, 0, 0.1);
+  border-color: #ec0000;
 }
 
 .skill-icon {
@@ -573,7 +575,7 @@ color:#d91a1a;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #d91a1a;
+  color: #ec0000;
 }
 
 .skill-icon svg {
@@ -606,16 +608,31 @@ color:#d91a1a;
 
 .skill-card ul li::before {
   content: '✓';
-  color: #d91a1a;
+  color: #ec0000;
   position: absolute;
   left: 0;
   font-weight: 700;
 }
 
+.skill-card.skill-card--with-image {
+  padding: 0;
+  overflow: hidden;
+}
+
+.skill-card-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.skill-card--with-image .skill-card-content {
+  padding: 40px 30px;
+}
+
 /* SECCIÓN DE ESTADÍSTICAS (CONTADOR ROJO) */
 .stats-section {
-  background-color: #d91a1a; /* Rojo Santander */
-  background: linear-gradient(135deg, #d91a1a 0%, #b91212 100%); /* Degradado sutil premium */
+  background-color: #ec0000; /* Rojo Santander */
+  background: linear-gradient(135deg, #ec0000 0%, #cc0000 100%); /* Degradado sutil premium */
   padding: 35px 20px;
   color: white;
   text-align: center;
@@ -705,7 +722,7 @@ color:#d91a1a;
   position: absolute;
   width: 70%;
   height: 4px;
-  background-color: #d91a1a;
+  background-color: #ec0000;
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
@@ -726,7 +743,7 @@ color:#d91a1a;
   padding: 40px 30px;
   flex: 1 1 300px;
   max-width: 380px;
-  border-radius: 8px;
+  border-radius: 24px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -737,13 +754,13 @@ color:#d91a1a;
 
 .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 30px rgba(217, 26, 26, 0.15);
-  border-bottom-color: #d91a1a; /* Acento rojo Santander */
+  box-shadow: 0 12px 30px rgba(236, 0, 0, 0.15);
+  border-bottom-color: #ec0000; /* Acento rojo Santander */
 }
 
 .card-icon {
   margin-bottom: 25px;
-  color: #d91a1a;
+  color: #ec0000;
 }
 
 .service-card h3 {
@@ -761,7 +778,7 @@ color:#d91a1a;
 
 .service-link {
   margin-top: 25px;
-  color: #d91a1a;
+  color: #ec0000;
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
@@ -797,7 +814,7 @@ color:#d91a1a;
   position: absolute;
   width: 70%;
   height: 4px;
-  background-color: #d91a1a;
+  background-color: #ec0000;
   bottom: -15px;
   left: 50%;
   transform: translateX(-50%);
@@ -817,7 +834,7 @@ color:#d91a1a;
   position: relative;
   flex: 1 1 340px; /* Flexbox para control responsivo */
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 24px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
   text-decoration: none;
   color: #fff;
@@ -883,7 +900,7 @@ color:#d91a1a;
   position: absolute;
   top: 20px;
   right: -35px;
-  background-color: #d91a1a;
+  background-color: #ec0000;
   color: #fff;
   padding: 5px 40px;
   transform: rotate(45deg);
@@ -928,7 +945,7 @@ color:#d91a1a;
 /* SECCIÓN DE TESTIMONIOS (ESTILO MODERNO) */
 .testimonials-section {
   padding: 100px 50px;
-  background-color: transparent;
+  background-color: #eef5f9;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -939,7 +956,7 @@ color:#d91a1a;
 }
 
 .testimonials-subtitle {
-  color: #d91a1a;
+  color: #ec0000;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1.5px;
@@ -964,7 +981,7 @@ color:#d91a1a;
   display: grid;
   grid-template-columns: 300px 1fr;
   background: #fff;
-  border-radius: 15px;
+  border-radius: 24px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
   width: 100%;
   min-height: 400px;
@@ -1012,7 +1029,7 @@ color:#d91a1a;
 }
 
 .testimonial-rating {
-  color: #d91a1a;
+  color: #ec0000;
   letter-spacing: 2px;
 }
 
@@ -1042,7 +1059,7 @@ color:#d91a1a;
   line-height: 1.6;
   font-weight: 400;
   padding-left: 20px;
-  border-left: 4px solid #d91a1a;
+  border-left: 4px solid #ec0000;
 }
 
 .testimonial-dots {
@@ -1067,7 +1084,7 @@ color:#d91a1a;
 }
 
 .dot.active {
-  background-color: #d91a1a;
+  background-color: #ec0000;
   transform: scale(1.2);
 }
 
@@ -1090,7 +1107,7 @@ color:#d91a1a;
 }
 
 .contact-subtitle {
-  color: #d91a1a;
+  color: #ec0000;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1.5px;
@@ -1114,7 +1131,7 @@ color:#d91a1a;
   margin: 0 auto;
   background-color: #fff;
   padding: 50px;
-  border-radius: 12px;
+  border-radius: 24px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
 }
 
@@ -1140,7 +1157,7 @@ color:#d91a1a;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #d91a1a;
+  color: #ec0000;
 }
 
 .contact-icon svg {
@@ -1180,8 +1197,8 @@ color:#d91a1a;
 .contact-form-wrapper input:focus,
 .contact-form-wrapper textarea:focus {
   outline: none;
-  border-color: #d91a1a;
-  box-shadow: 0 0 0 3px rgba(217, 26, 26, 0.1);
+  border-color: #ec0000;
+  box-shadow: 0 0 0 3px rgba(236, 0, 0, 0.1);
 }
 
 .contact-form-wrapper textarea {
@@ -1189,11 +1206,11 @@ color:#d91a1a;
 }
 
 .btn-submit {
-  background-color: #d91a1a;
+  background-color: #ec0000;
   color: #fff;
   border: none;
   padding: 15px 30px;
-  border-radius: 6px;
+  border-radius: 50px;
   font-weight: 700;
   font-size: 16px;
   cursor: pointer;
@@ -1203,7 +1220,7 @@ color:#d91a1a;
 }
 
 .btn-submit:hover {
-  background-color: #b91212;
+  background-color: #cc0000;
   transform: translateY(-2px);
 }
 
@@ -1227,7 +1244,7 @@ color:#d91a1a;
 .footer-section {
   background-color: transparent;
   padding: 60px 50px 30px 50px;
-  border-top: 4px solid #d91a1a; /* Línea roja superior característica */
+  border-top: 4px solid #ec0000; /* Línea roja superior característica */
   color: #444;
 }
 
@@ -1258,7 +1275,7 @@ color:#d91a1a;
 
 .footer-column h3 {
   font-size: 18px;
-  color: #d91a1a; /* Títulos en rojo */
+  color: #ec0000; /* Títulos en rojo */
   margin-bottom: 25px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1281,7 +1298,7 @@ color:#d91a1a;
 }
 
 .footer-links a:hover {
-  color: #d91a1a;
+  color: #ec0000;
   padding-left: 5px; /* Pequeño desplazamiento al hover */
 }
 
@@ -1298,14 +1315,14 @@ color:#d91a1a;
   height: 40px;
   background-color: #fff;
   border-radius: 50%;
-  color: #d91a1a;
+  color: #ec0000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
   transform: translateY(-3px);
-  background-color: #d91a1a;
+  background-color: #ec0000;
   color: #fff;
 }
 
@@ -1444,7 +1461,7 @@ color:#d91a1a;
 }
 
 .modal-close-btn:hover {
-  background-color: #d91a1a;
+  background-color: #ec0000;
   color: #fff;
   transform: rotate(90deg);
 }
@@ -1453,13 +1470,13 @@ color:#d91a1a;
   width: 80px;
   height: 80px;
   margin: 0 auto 25px auto;
-  background-color: #d91a1a;
+  background-color: #ec0000;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  box-shadow: 0 10px 20px rgba(217, 26, 26, 0.2);
+  box-shadow: 0 10px 20px rgba(236, 0, 0, 0.2);
 }
 
 .modal-icon-wrapper svg {
@@ -1504,7 +1521,7 @@ color:#d91a1a;
   position: fixed;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 100%; /* Cubre toda la pantalla en móvil */
   height: 100%;
   background-color: #fff;
   z-index: 2000;
@@ -1513,6 +1530,12 @@ color:#d91a1a;
   display: flex;
   flex-direction: column;
   box-shadow: 5px 0 25px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 380px; /* En escritorio no ocupa todo, solo un panel ancho */
+  }
 }
 
 .sidebar.show {
@@ -1539,52 +1562,113 @@ color:#d91a1a;
   color: #888;
 }
 .sidebar-close:hover {
-  color: #d91a1a;
+  color: #ec0000;
+}
+
+.sidebar-content-scroll {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px 0;
+}
+
+.sidebar-section-label {
+  padding: 20px 25px 10px 25px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #999;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .sidebar-links {
   list-style: none;
-  padding: 20px 0;
-  flex-grow: 1;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .sidebar-links li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 18px 25px;
   text-decoration: none;
-  color: #333;
-  font-weight: 600;
+  color: #1c1c1c; /* Un negro más corporativo y profesional */
+  font-weight: 400; /* Peso de fuente normal para un look más limpio */
   font-size: 16px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  border-bottom: 1px solid #f5f5f5;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  /* Se elimina el borde para un diseño más limpio, separado solo por espacio */
+}
+
+.link-left {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Más espacio entre el icono y el texto */
+}
+
+.link-left svg {
+  color: #333; /* Iconos oscuros para un look sobrio y elegante */
+  width: 22px;
+  height: 22px;
+  transition: color 0.2s ease;
+}
+
+.arrow-icon {
+  color: #ccc;
+  width: 18px;
+  height: 18px;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .sidebar-links li a:hover {
-  background-color: #fde8e8;
-  color: #d91a1a;
+  background-color: #f5f5f5; /* Un fondo de hover muy sutil */
+  color: #ec0000;
 }
 
-.sidebar-links li a svg {
-  color: #ccc;
-  transition: color 0.3s ease;
+.sidebar-links li a:hover .link-left svg,
+.sidebar-links li a:hover .arrow-icon {
+  color: #ec0000;
 }
 
-.sidebar-links li a:hover svg {
-  color: #d91a1a;
+.sidebar-links li a:hover .arrow-icon {
+  transform: translateX(3px); /* Pequeño movimiento en la flecha */
 }
 
 .sidebar-footer {
-  padding: 20px;
+  padding: 25px;
   border-top: 1px solid #eee;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  background-color: #fff;
 }
 
-.sidebar-footer .nav-icon-link {
-  color: #333;
+.btn-blue-sidebar {
+  background-color: #eef5f9; /* El color "asulito" que pediste */
+  color: #004481; /* Texto azul oscuro corporativo para contraste */
+  border: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.btn-blue-sidebar:hover {
+  background-color: #dcebf5;
+  transform: translateY(-2px);
+}
+
+.btn-register.full-width {
+  width: 100%;
+  justify-content: center;
+  padding: 15px 20px;
+  font-size: 16px;
 }
 
 /* SERVICES PAGE LAYOUT (Estilo Santander) */
@@ -1600,7 +1684,7 @@ color:#d91a1a;
   left: 0;
   width: 280px;
   height: 100%;
-  background-color: #d91a1a;
+  background-color: #ec0000;
   color: #fff;
   padding: 30px;
   display: flex;
@@ -1629,7 +1713,7 @@ color:#d91a1a;
   color: #fff;
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
@@ -1638,7 +1722,7 @@ color:#d91a1a;
 
 .services-sidebar-header button:hover {
   background: #fff;
-  color: #d91a1a;
+  color: #ec0000;
 }
 
 .services-sidebar-nav {
@@ -1665,7 +1749,7 @@ color:#d91a1a;
 
 .services-sidebar-nav li a:hover,
 .services-sidebar-nav li a.active {
-  background-color: #b91212;
+  background-color: #cc0000;
   color: #fff;
   transform: translateX(5px);
 }
@@ -1709,7 +1793,7 @@ color:#d91a1a;
 .service-detail-card {
   background: #fff;
   border: 1px solid #e0e0e0; /* Borde gris como se pidió */
-  border-radius: 8px;
+  border-radius: 24px;
   padding: 30px 20px;
   text-align: center;
   transition: all 0.3s ease;
@@ -1721,11 +1805,11 @@ color:#d91a1a;
 .service-detail-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
-  border-color: #d91a1a;
+  border-color: #ec0000;
 }
 
 .service-detail-icon {
-  color: #d91a1a;
+  color: #ec0000;
   margin-bottom: 20px;
 }
 
@@ -1761,7 +1845,9 @@ color:#d91a1a;
     display: none;
   }
   .hamburger-menu {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-section {
