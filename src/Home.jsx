@@ -205,6 +205,17 @@ const Home = () => {
   const [view, setView] = useState('home');
 
   useEffect(() => {
+    const faviconUrl = "https://img.freepik.com/vetores-premium/bn-monogram-logo-design-letra-texto-nome-simbolo-logotipo-monocromatico-alfabeto-caractere-logotipo-simples_955145-5500.jpg";
+    let link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'icon';
+      document.head.appendChild(link);
+    }
+    link.href = faviconUrl;
+  }, []);
+
+  useEffect(() => {
     // Simular tiempo de carga
     const timer = setTimeout(() => {
       setIsLoading(false);
