@@ -1180,7 +1180,7 @@ const Home = () => {
           </p>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 BN. Todos los derechos reservados.</p>
+          <p>© 2026 BN. todos los derechos reservados </p>
         </div>
       </footer>
 
