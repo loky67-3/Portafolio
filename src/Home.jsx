@@ -293,7 +293,7 @@ const Home = () => {
     },
     {
       id: 3,
-      image: "https://cdn.pixabay.com/photo/2016/08/10/19/13/atlanta-1584094_1280.jpg",
+      image: "https://static.vecteezy.com/system/resources/previews/030/673/420/large_2x/product-shots-of-caffeine-free-mountain-dew-high-free-photo.jpg",
       title: "Diseños y una amplia Variedad",
       subtitle: "Más que un proveedor, un aliado comprometido con tus objetivos y el crecimiento",
       buttonText: "Contáctanos Hoy"
