@@ -888,6 +888,23 @@ const Home = () => {
       <section className="projects-section">
         <h2>Mis Proyectos Destacados</h2>
         <div className="projects-grid">
+          {/* Proyecto de Plantas */}
+          <a href="https://plantas-8uw8.onrender.com" target="_blank" rel="noopener noreferrer" className="project-item">
+            <div className="card-badge new" style={{backgroundColor: '#28a745'}}>Verde</div>
+            <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1854&auto=format&fit=crop" alt="Página Web de Plantas" />
+            <div className="project-info">
+              <span className="project-category">Página Web</span>
+              <div className="project-rating">
+                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+              </div>
+              <h3>Catálogo de Plantas</h3>
+              <div className="project-link">
+                <span>Visitar Sitio</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </div>
+            </div>
+          </a>
+
           {/* Proyecto 1 */}
           <a href="#" className="project-item">
             <div className="card-badge">Destacado</div>

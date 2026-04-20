@@ -1721,7 +1721,7 @@ color:#ec0000;
 }
 
 .services-back-button {
-  display: none; /* Oculto en escritorio */
+  display: 10px; /* Oculto en escritorio */
 }
 
 .services-sidebar-header button:hover {
